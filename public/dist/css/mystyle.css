@@ -1,0 +1,167 @@
+.sidebar,.main-sidebar{
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    .dark-mode{
+background-color: #1b1e23 !important;
+    }
+
+.sidebar:hover{
+content:"" !important;
+}
+
+.wrapper {
+    min-height: 1% !important;
+  }
+
+.content{
+    margin: 10vh 0vw;
+}
+
+.main-header{
+    background-color: #56CCF2!important;
+    color: #fff !important;
+}
+
+
+
+/*__________________COPY,CSV,PDF...Buttons__________________*/
+.dt-buttons{
+    margin-left:2em;
+}
+.dt-buttons .buttons-pdf:hover{
+    background-color: crimson;
+}
+.dt-buttons .buttons-excel:hover{
+    background-color: green;
+}
+.dt-buttons .buttons-print:hover{
+    background-color: lightblue;
+}
+.dt-buttons .buttons-csv:hover{
+    background-color: green;
+}
+
+
+
+
+
+/*___________________Forms style__________________*/
+form{
+    border: 1px solid #fff;
+    border-radius: 7px;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.form-group{
+    border-bottom: 1px dashed #fff;
+    padding-bottom: 20px;
+
+}
+input{
+    width: 20em !important;
+    border-radius: 12px !important;
+    margin: auto;
+}
+input[type=text]:focus-visible{
+    border:#56CCF2 1px solid ;
+}
+button{
+    border-radius: 24px !important;
+}
+
+
+td form,.card form{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.line-clamp{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 250px;
+    display: block;
+    overflow: hidden
+}
+
+.details{
+    margin-top:10vh !important;
+}
+
+.text-secondary, .text-secondary-hover:hover {
+    color: #59b73f !important;
+}
+.display-25 {
+    font-size: 1.4rem;
+}
+
+.text-primary, .text-primary-hover:hover {
+    color: #ff712a !important;
+}
+
+p {
+    margin: 0 0 20px;
+}
+
+.mb-1-6, .my-1-6 {
+    margin-bottom: 1.6rem;
+}
+
+
+
+/*________________________Title's style_____________________*/
+h1{
+   /* color: #56CCF2 ; */
+   font-weight: 700;
+}
+
+
+
+
+
+
+/*________________________Small boxes style_____________________*/
+.small-box{
+    height: 15em;
+    margin: 2em;
+    border-radius: 36px;
+}
+
+
+
+
+/*________________________Tables style_____________________*/
+
+table{
+    width: 60em !important;
+    margin: auto;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2F80ED;
+
+  }
